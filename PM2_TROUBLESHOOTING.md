@@ -32,6 +32,25 @@ pm2 show ivyonaire-web
 
 ## Common Issues and Fixes
 
+### Issue 0: "SyntaxError: missing ) after argument list" with Next.js
+
+**Error:** `SyntaxError: missing ) after argument list` when trying to run `node_modules/.bin/next`
+
+**Cause:** PM2 is trying to execute the shell script wrapper instead of the actual Node.js binary.
+
+**Fix:** The ecosystem.config.js should use the direct path to the Next.js binary:
+```javascript
+interpreter: 'node',
+script: path.resolve(__dirname, 'apps/web/node_modules/next/dist/bin/next'),
+args: 'start',
+```
+
+Or restart PM2 with the updated config:
+```bash
+pm2 delete all
+pm2 start ecosystem.config.js
+```
+
 ### Issue 1: Build Files Missing
 
 **Error:** `Cannot find module` or `ENOENT: no such file or directory`

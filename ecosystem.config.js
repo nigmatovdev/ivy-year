@@ -5,7 +5,8 @@ module.exports = {
     {
       name: 'ivyonaire-web',
       cwd: path.resolve(__dirname, 'apps/web'),
-      script: 'node_modules/.bin/next',
+      interpreter: 'node',
+      script: path.resolve(__dirname, 'apps/web/node_modules/next/dist/bin/next'),
       args: 'start',
       env: {
         NODE_ENV: 'production',
@@ -26,7 +27,8 @@ module.exports = {
     {
       name: 'ivyonaire-admin',
       cwd: path.resolve(__dirname, 'apps/admin'),
-      script: 'node_modules/.bin/next',
+      interpreter: 'node',
+      script: path.resolve(__dirname, 'apps/admin/node_modules/next/dist/bin/next'),
       args: 'start',
       env: {
         NODE_ENV: 'production',
