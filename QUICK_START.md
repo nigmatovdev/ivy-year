@@ -19,8 +19,12 @@ pm2 --version
 sudo -u postgres createdb ivyonaire
 sudo -u postgres createuser ivyonaire_user -P
 
-# Grant permissions
+# Grant permissions (including schema permissions)
 sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE ivyonaire TO ivyonaire_user;"
+sudo -u postgres psql -d ivyonaire -c "GRANT ALL ON SCHEMA public TO ivyonaire_user;"
+sudo -u postgres psql -d ivyonaire -c "GRANT CREATE ON SCHEMA public TO ivyonaire_user;"
+sudo -u postgres psql -d ivyonaire -c "ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON TABLES TO ivyonaire_user;"
+sudo -u postgres psql -d ivyonaire -c "ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON SEQUENCES TO ivyonaire_user;"
 ```
 
 ## 2. Configure Environment

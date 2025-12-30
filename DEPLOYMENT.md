@@ -61,6 +61,11 @@ sudo -u postgres psql << EOF
 CREATE DATABASE ivyonaire;
 CREATE USER ivyonaire_user WITH ENCRYPTED PASSWORD 'your_secure_password_here';
 GRANT ALL PRIVILEGES ON DATABASE ivyonaire TO ivyonaire_user;
+\c ivyonaire
+GRANT ALL ON SCHEMA public TO ivyonaire_user;
+GRANT CREATE ON SCHEMA public TO ivyonaire_user;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON TABLES TO ivyonaire_user;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON SEQUENCES TO ivyonaire_user;
 \q
 EOF
 ```
@@ -98,7 +103,23 @@ Add your database connection:
 DATABASE_URL="postgresql://ivyonaire_user:your_secure_password_here@localhost:5432/ivyonaire?schema=public"
 ```
 
-### 2. Run Migrations
+### 2. Fix Database Permissions (if needed)
+
+If you're getting "permission denied for schema public" errors, run:
+
+```bash
+sudo -u postgres psql -d ivyonaire << EOF
+GRANT ALL ON SCHEMA public TO ivyonaire_user;
+GRANT CREATE ON SCHEMA public TO ivyonaire_user;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON TABLES TO ivyonaire_user;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON SEQUENCES TO ivyonaire_user;
+\q
+EOF
+```
+
+### 3. Run Migrations
+
+**If you have migrations in `packages/db/prisma/migrations/`:**
 
 ```bash
 cd /path/to/ivy-year
@@ -112,6 +133,25 @@ Or manually:
 cd packages/db
 pnpm db:generate
 pnpm db:migrate:deploy
+```
+
+**If you don't have migrations yet (first-time setup):**
+
+You have two options:
+
+**Option A: Create initial migration (recommended for production)**
+```bash
+cd packages/db
+pnpm db:generate
+pnpm db:migrate dev --name init
+pnpm db:migrate:deploy
+```
+
+**Option B: Push schema directly (faster, but no migration history)**
+```bash
+cd packages/db
+pnpm db:generate
+pnpm db:push
 ```
 
 ---
@@ -532,6 +572,38 @@ sudo journalctl -u nginx -f
 
 ```bash
 sudo -u postgres psql -d ivyonaire -c "SELECT version();"
+```
+
+### Fix "Permission Denied for Schema Public" Error
+
+If you encounter `ERROR: permission denied for schema public` when running migrations:
+
+```bash
+# Connect to the database as postgres superuser
+sudo -u postgres psql -d ivyonaire << EOF
+GRANT ALL ON SCHEMA public TO ivyonaire_user;
+GRANT CREATE ON SCHEMA public TO ivyonaire_user;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON TABLES TO ivyonaire_user;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON SEQUENCES TO ivyonaire_user;
+\q
+EOF
+```
+
+### Fix "No Migration Found" Error
+
+If you see `No migration found in prisma/migrations`, you need to create migrations first:
+
+**Option 1: Create initial migration (recommended)**
+```bash
+cd packages/db
+pnpm db:migrate dev --name init
+pnpm db:migrate:deploy
+```
+
+**Option 2: Push schema directly (for quick setup)**
+```bash
+cd packages/db
+pnpm db:push
 ```
 
 ### Check Ports
