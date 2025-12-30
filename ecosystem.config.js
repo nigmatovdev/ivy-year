@@ -1,0 +1,45 @@
+module.exports = {
+  apps: [
+    {
+      name: 'ivyonaire-web',
+      cwd: './apps/web',
+      script: 'node_modules/.bin/next',
+      args: 'start',
+      env: {
+        NODE_ENV: 'production',
+        PORT: 3000,
+      },
+      env_file: '.env.production',
+      instances: 2,
+      exec_mode: 'cluster',
+      error_file: './logs/ivyonaire-web-error.log',
+      out_file: './logs/ivyonaire-web-out.log',
+      log_date_format: 'YYYY-MM-DD HH:mm:ss Z',
+      merge_logs: true,
+      autorestart: true,
+      max_memory_restart: '1G',
+      watch: false,
+    },
+    {
+      name: 'ivyonaire-admin',
+      cwd: './apps/admin',
+      script: 'node_modules/.bin/next',
+      args: 'start',
+      env: {
+        NODE_ENV: 'production',
+        PORT: 3001,
+      },
+      env_file: '.env.production',
+      instances: 1,
+      exec_mode: 'fork',
+      error_file: './logs/ivyonaire-admin-error.log',
+      out_file: './logs/ivyonaire-admin-out.log',
+      log_date_format: 'YYYY-MM-DD HH:mm:ss Z',
+      merge_logs: true,
+      autorestart: true,
+      max_memory_restart: '1G',
+      watch: false,
+    },
+  ],
+};
+

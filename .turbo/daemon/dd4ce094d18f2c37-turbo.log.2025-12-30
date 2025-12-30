@@ -1,0 +1,513 @@
+2025-12-30T07:06:35.754207Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next"), AnchoredSystemPathBuf("apps\\web"), AnchoredSystemPathBuf("apps\\admin\\.next"), AnchoredSystemPathBuf("apps\\admin")}
+2025-12-30T07:06:35.754252Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:07:23.253329Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T07:07:23.253392Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:07:23.314334Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:10:30.743752Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T07:10:30.743767Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:10:30.794889Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:10:32.548701Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next"), AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T07:10:32.548726Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:10:32.623156Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:10:32.624420Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:10:34.159123Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T07:10:34.159143Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:10:34.184198Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:11:23.944553Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\tsconfig.json")}
+2025-12-30T07:11:23.944573Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:11:29.250134Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\tsconfig.json")}
+2025-12-30T07:11:29.250150Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:11:34.648311Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\tsconfig.json"), AnchoredSystemPathBuf("apps\\admin\\tsconfig.json")}
+2025-12-30T07:11:34.648528Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }, WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:11:34.658166Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:11:34.658198Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:11:43.944491Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T07:11:43.944509Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:11:43.944535Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:11:45.345177Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin"), AnchoredSystemPathBuf("apps\\web\\next-env.d.ts"), AnchoredSystemPathBuf("apps\\web"), AnchoredSystemPathBuf("apps\\admin\\next-env.d.ts")}
+2025-12-30T07:11:45.345195Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:11:46.144168Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next"), AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T07:11:46.144187Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }, WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:11:46.190443Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:11:46.191863Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:11:46.343464Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T07:11:46.343476Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:11:46.453118Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:11:46.453320Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next"), AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T07:11:46.453330Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }, WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:11:46.453349Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:11:46.482090Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:11:46.648562Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next"), AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T07:11:46.648581Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }, WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:11:46.696192Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:11:46.719611Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:11:48.143557Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next"), AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T07:11:48.143577Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:11:48.213776Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:11:48.214004Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:11:57.245641Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T07:11:57.245657Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:11:57.248179Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:12:15.958441Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T07:12:15.958461Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:12:16.030122Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:12:59.849811Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(""), AnchoredSystemPathBuf("_tmp_22192_28cf9988a640d5cdb7559287f0d595c2")}
+2025-12-30T07:12:59.849829Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T07:13:05.043671Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("pnpm-lock.yaml"), AnchoredSystemPathBuf("pnpm-lock.yaml.363979202"), AnchoredSystemPathBuf("")}
+2025-12-30T07:13:05.043696Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T07:13:26.246575Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\tailwind.config.js")}
+2025-12-30T07:13:26.246598Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:13:28.344424Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\tailwind.config.js")}
+2025-12-30T07:13:28.344436Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:13:30.444010Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\tailwind.config.js"), AnchoredSystemPathBuf("apps\\admin\\tailwind.config.js")}
+2025-12-30T07:13:30.444031Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }, WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:13:30.485040Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:13:30.485063Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:13:43.571407Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next"), AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T07:13:43.571437Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }, WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:13:44.065072Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T07:13:44.065096Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:13:44.214386Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:13:44.214576Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next"), AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T07:13:44.214585Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }, WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:13:44.280466Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:13:44.280488Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:13:51.863698Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T07:13:51.863726Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:13:52.020381Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:13:52.163642Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T07:13:52.163664Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:13:52.390412Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:14:17.163319Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\config\\tailwind\\base.js")}
+2025-12-30T07:14:17.163345Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/config"), path: AnchoredSystemPathBuf("packages\\config") }}))
+2025-12-30T07:14:19.374741Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\config\\tailwind\\base.js")}
+2025-12-30T07:14:19.374760Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/config"), path: AnchoredSystemPathBuf("packages\\config") }}))
+2025-12-30T07:14:19.442230Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:14:47.180325Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next"), AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T07:14:47.180362Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }, WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:14:47.685356Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next"), AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T07:14:47.685376Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:14:47.802639Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:14:47.802665Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:14:47.802802Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next"), AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T07:14:47.802811Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:14:47.802825Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:14:47.802835Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:14:47.880036Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T07:14:47.880048Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:14:47.880065Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:16:42.786436Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\db\\prisma\\schema.prisma")}
+2025-12-30T07:16:42.786465Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/db"), path: AnchoredSystemPathBuf("packages\\db") }}))
+2025-12-30T07:16:46.381557Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\db\\index.ts")}
+2025-12-30T07:16:46.381580Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/db"), path: AnchoredSystemPathBuf("packages\\db") }}))
+2025-12-30T07:17:30.892926Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\db\\index.ts"), AnchoredSystemPathBuf("packages\\db\\prisma\\schema.prisma")}
+2025-12-30T07:17:30.892942Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/db"), path: AnchoredSystemPathBuf("packages\\db") }}))
+2025-12-30T07:17:30.962368Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:18:05.493954Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".env.example")}
+2025-12-30T07:18:05.493985Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T07:18:06.087104Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-12-30T07:18:06.087130Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-12-30T07:18:23.083068Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".env.example")}
+2025-12-30T07:18:23.083090Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T07:19:23.092055Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".env copy.example")}
+2025-12-30T07:19:23.092071Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T07:19:23.382133Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-12-30T07:19:23.382150Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-12-30T07:19:29.880626Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(""), AnchoredSystemPathBuf(".env copy.example")}
+2025-12-30T07:19:29.880644Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T07:19:32.489910Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".env.example")}
+2025-12-30T07:19:32.489931Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T07:33:49.427691Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next"), AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T07:33:49.427724Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:33:50.026250Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T07:33:50.026267Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T07:33:50.155769Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:33:50.156064Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next"), AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T07:33:50.156084Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T07:33:50.156119Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:33:50.238851Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:35:45.918482Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\ProgressBar.tsx"), AnchoredSystemPathBuf("packages\\ui\\components"), AnchoredSystemPathBuf("packages\\ui")}
+2025-12-30T07:35:45.918503Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T07:35:46.131156Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\ProgressBar.tsx")}
+2025-12-30T07:35:46.131176Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T07:35:46.131204Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:35:54.022594Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\StatCard.tsx"), AnchoredSystemPathBuf("packages\\ui\\components")}
+2025-12-30T07:35:54.022622Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T07:35:54.226066Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\StatCard.tsx")}
+2025-12-30T07:35:54.226093Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T07:35:59.921784Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\SectionHeader.tsx")}
+2025-12-30T07:35:59.921806Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T07:36:00.069044Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components")}
+2025-12-30T07:36:00.069062Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T07:36:00.069090Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T07:36:00.123439Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\SectionHeader.tsx")}
+2025-12-30T07:36:00.123459Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T07:36:06.717572Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components"), AnchoredSystemPathBuf("packages\\ui\\components\\Badge.tsx")}
+2025-12-30T07:36:06.717590Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T07:36:06.918691Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\Badge.tsx")}
+2025-12-30T07:36:06.918719Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T07:36:16.830162Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components"), AnchoredSystemPathBuf("packages\\ui\\components\\EmptyState.tsx")}
+2025-12-30T07:36:16.830190Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T07:36:16.923580Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\EmptyState.tsx")}
+2025-12-30T07:36:16.923598Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T07:36:20.821647Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\index.ts")}
+2025-12-30T07:36:20.821669Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T07:36:38.918347Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\Badge.tsx"), AnchoredSystemPathBuf("packages\\ui\\components\\ProgressBar.tsx"), AnchoredSystemPathBuf("packages\\ui\\index.ts"), AnchoredSystemPathBuf("packages\\ui\\components\\SectionHeader.tsx"), AnchoredSystemPathBuf("packages\\ui\\components\\EmptyState.tsx"), AnchoredSystemPathBuf("packages\\ui\\components\\StatCard.tsx")}
+2025-12-30T07:36:38.918364Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T07:36:38.918384Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:07:07.027019Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\package.json")}
+2025-12-30T08:07:07.027041Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:07:15.916773Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\lib\\auth.ts")}
+2025-12-30T08:07:15.916792Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:07:20.132200Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\auth\\[...nextauth]"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\api"), AnchoredSystemPathBuf("apps\\admin\\src\\app"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\auth\\[...nextauth]\\route.ts"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\auth")}
+2025-12-30T08:07:20.132229Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:07:20.323652Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\auth\\[...nextauth]\\route.ts")}
+2025-12-30T08:07:20.323681Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:07:26.916308Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\(auth)\\login\\page.tsx")}
+2025-12-30T08:07:26.916331Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:07:40.331405Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\(auth)\\login\\login-form.tsx")}
+2025-12-30T08:07:40.331421Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:07:40.700423Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\(auth)\\login"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\(auth)\\login\\login-form.tsx")}
+2025-12-30T08:07:40.700446Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:07:40.700502Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:07:46.719331Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\middleware.ts")}
+2025-12-30T08:07:46.719349Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:07:46.848404Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin")}
+2025-12-30T08:07:46.848426Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:07:46.848463Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:07:46.920666Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\middleware.ts")}
+2025-12-30T08:07:46.920687Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:07:49.925037Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\middleware.ts")}
+2025-12-30T08:07:49.925063Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:07:50.165168Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\middleware.ts"), AnchoredSystemPathBuf("apps\\admin\\src")}
+2025-12-30T08:07:50.165184Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:07:50.165211Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:08:09.126684Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\middleware.ts"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\auth\\[...nextauth]\\route.ts"), AnchoredSystemPathBuf("apps\\admin\\src\\lib\\auth.ts"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\(auth)\\login\\login-form.tsx"), AnchoredSystemPathBuf("apps\\admin\\package.json"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\(auth)\\login\\page.tsx")}
+2025-12-30T08:08:09.126709Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:08:09.224158Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:10:47.525911Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T08:10:47.525929Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:10:47.559955Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:36:18.869125Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T08:36:18.869169Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:36:18.981040Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T08:36:18.981058Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:36:19.281917Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T08:36:19.281936Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:36:19.342987Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:36:19.467809Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T08:36:19.467833Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:36:19.470408Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:36:19.572325Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next"), AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T08:36:19.572348Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:36:19.741124Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:36:19.741157Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:36:19.777106Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T08:36:19.777127Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:36:19.988325Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:45:40.667733Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app"), AnchoredSystemPathBuf("apps\\web\\src\\app\\[slug]\\page.tsx"), AnchoredSystemPathBuf("apps\\web\\src\\app\\[slug]")}
+2025-12-30T08:45:40.667762Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:45:40.877565Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app\\[slug]\\page.tsx")}
+2025-12-30T08:45:40.877583Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:45:43.082852Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T08:45:43.082880Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:45:43.162354Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:45:43.276213Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app\\[slug]\\not-found.tsx")}
+2025-12-30T08:45:43.276235Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:45:44.042339Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app\\[slug]"), AnchoredSystemPathBuf("apps\\web\\src\\app\\[slug]\\not-found.tsx")}
+2025-12-30T08:45:44.042358Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:45:44.042394Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:46:09.478172Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\StudentProfile.tsx")}
+2025-12-30T08:46:09.478192Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:46:09.738104Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components"), AnchoredSystemPathBuf("apps\\web\\src\\components\\StudentProfile.tsx")}
+2025-12-30T08:46:09.738127Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:46:09.738153Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:46:10.567243Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app\\student\\[slug]\\page.tsx")}
+2025-12-30T08:46:10.567263Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:46:10.747850Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app\\student\\[slug]"), AnchoredSystemPathBuf("apps\\web\\src\\app\\student\\[slug]\\page.tsx")}
+2025-12-30T08:46:10.747869Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:46:10.747896Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:46:40.375515Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\StudentProfile.tsx")}
+2025-12-30T08:46:40.375540Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:46:53.576170Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app\\student"), AnchoredSystemPathBuf("apps\\web\\src\\app"), AnchoredSystemPathBuf("apps\\web\\src\\app\\student\\[slug]")}
+2025-12-30T08:46:53.576187Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:46:53.639939Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:47:17.768455Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app\\[slug]\\not-found.tsx"), AnchoredSystemPathBuf("apps\\web\\src\\app\\[slug]\\page.tsx"), AnchoredSystemPathBuf("apps\\web\\src\\components\\StudentProfile.tsx")}
+2025-12-30T08:47:17.768479Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:47:17.831313Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:50:55.169721Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\StudentProfile.tsx")}
+2025-12-30T08:50:55.169749Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:50:57.470808Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app\\[slug]\\page.tsx")}
+2025-12-30T08:50:57.470827Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:51:12.172493Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app\\[slug]\\page.tsx")}
+2025-12-30T08:51:12.172514Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:51:27.567173Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\StudentProfile.tsx")}
+2025-12-30T08:51:27.567201Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:51:27.667674Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:54:13.475231Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\ProgressBar.tsx")}
+2025-12-30T08:54:13.475256Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T08:54:35.169516Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components"), AnchoredSystemPathBuf("packages\\ui\\components\\EnhancedProgressCard.tsx")}
+2025-12-30T08:54:35.169533Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T08:54:35.279834Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\EnhancedProgressCard.tsx")}
+2025-12-30T08:54:35.279862Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T08:54:37.268280Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\index.ts")}
+2025-12-30T08:54:37.268304Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T08:54:44.374890Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\config\\tailwind\\base.js")}
+2025-12-30T08:54:44.374912Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/config"), path: AnchoredSystemPathBuf("packages\\config") }}))
+2025-12-30T08:55:40.480126Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\StudentProfile.tsx")}
+2025-12-30T08:55:40.480154Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T08:55:57.475202Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\StudentProfile.tsx"), AnchoredSystemPathBuf("packages\\ui\\components\\EnhancedProgressCard.tsx"), AnchoredSystemPathBuf("packages\\config\\tailwind\\base.js"), AnchoredSystemPathBuf("packages\\ui\\components\\ProgressBar.tsx"), AnchoredSystemPathBuf("packages\\ui\\index.ts")}
+2025-12-30T08:55:57.475222Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Other("@ivyonaire/config"), path: AnchoredSystemPathBuf("packages\\config") }, WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T08:55:57.634283Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:55:57.634307Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:55:57.634323Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:57:10.967684Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\lib\\utils.ts")}
+2025-12-30T08:57:10.967711Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:57:17.075709Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\students\\check-slug")}
+2025-12-30T08:57:17.075726Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:57:17.405790Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\students"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\students\\check-slug\\route.ts"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\students\\check-slug")}
+2025-12-30T08:57:17.405810Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:57:17.405854Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T08:57:19.368676Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\students\\route.ts")}
+2025-12-30T08:57:19.368694Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:57:23.581928Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\students\\route.ts")}
+2025-12-30T08:57:23.581953Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:57:25.572766Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\students\\[id]\\route.ts")}
+2025-12-30T08:57:25.572789Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:57:29.670537Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\students\\[id]\\route.ts")}
+2025-12-30T08:57:29.670558Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:57:31.572019Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T08:57:31.572038Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:57:33.573091Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T08:57:33.573117Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:57:38.980469Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T08:57:38.980496Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:58:12.974206Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T08:58:12.974239Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:58:27.381893Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\students\\route.ts"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\students\\check-slug\\route.ts"), AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\api\\students\\[id]\\route.ts"), AnchoredSystemPathBuf("apps\\admin\\src\\lib\\utils.ts")}
+2025-12-30T08:58:27.381912Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T08:58:27.493057Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:02:45.970990Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\config\\tailwind\\base.js")}
+2025-12-30T09:02:45.971018Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/config"), path: AnchoredSystemPathBuf("packages\\config") }}))
+2025-12-30T09:02:49.072277Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app\\globals.css")}
+2025-12-30T09:02:49.072306Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:02:51.668481Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\globals.css")}
+2025-12-30T09:02:51.668505Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:02:57.871089Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\layout\\Header.tsx")}
+2025-12-30T09:02:57.871117Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:03:00.568642Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\layout\\Footer.tsx")}
+2025-12-30T09:03:00.568667Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:03:54.382783Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\StudentProfile.tsx")}
+2025-12-30T09:03:54.382815Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:04:13.474820Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\StatCard.tsx")}
+2025-12-30T09:04:13.474850Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T09:04:20.078252Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\SectionHeader.tsx")}
+2025-12-30T09:04:20.078280Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T09:04:28.170735Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\Badge.tsx")}
+2025-12-30T09:04:28.170755Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T09:04:56.277358Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\EnhancedProgressCard.tsx")}
+2025-12-30T09:04:56.277385Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T09:05:06.572593Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app\\page.tsx")}
+2025-12-30T09:05:06.572622Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:05:11.682795Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\(dashboard)\\layout.tsx")}
+2025-12-30T09:05:11.682812Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:05:18.668966Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\(dashboard)\\page.tsx")}
+2025-12-30T09:05:18.668986Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:05:28.478933Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\(auth)\\login\\page.tsx")}
+2025-12-30T09:05:28.478952Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:05:34.174896Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\(dashboard)\\students\\page.tsx")}
+2025-12-30T09:05:34.174929Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:06:01.374101Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentList.tsx")}
+2025-12-30T09:06:01.374140Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:06:14.179631Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\(auth)\\login\\login-form.tsx")}
+2025-12-30T09:06:14.179654Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:06:30.170248Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T09:06:30.170279Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:06:58.973935Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T09:06:58.973955Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:07:07.772460Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T09:07:07.772481Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:07:16.169987Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T09:07:16.170009Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:07:17.670550Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T09:07:17.670563Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:07:19.279450Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T09:07:19.279471Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:07:20.871634Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T09:07:20.871656Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:08:14.471363Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T09:08:14.471383Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:08:23.077383Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\(dashboard)\\students\\new\\page.tsx")}
+2025-12-30T09:08:23.077399Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:08:31.171689Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\(dashboard)\\students\\[id]\\edit\\page.tsx")}
+2025-12-30T09:08:31.171714Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:08:42.275526Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T09:08:42.275549Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:08:46.282395Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T09:08:46.282416Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:08:53.975444Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T09:08:53.975461Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:08:58.679464Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx")}
+2025-12-30T09:08:58.679486Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:09:11.981579Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\ui\\components\\ProgressBar.tsx")}
+2025-12-30T09:09:11.981599Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }}))
+2025-12-30T09:09:34.778499Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app\\globals.css"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\(auth)\\login\\login-form.tsx"), AnchoredSystemPathBuf("apps\\web\\src\\app\\page.tsx"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\(dashboard)\\students\\[id]\\edit\\page.tsx"), AnchoredSystemPathBuf("packages\\ui\\components\\EnhancedProgressCard.tsx"), AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentList.tsx"), AnchoredSystemPathBuf("apps\\web\\src\\components\\layout\\Header.tsx"), AnchoredSystemPathBuf("packages\\config\\tailwind\\base.js"), AnchoredSystemPathBuf("packages\\ui\\components\\Badge.tsx"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\(dashboard)\\students\\page.tsx"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\(dashboard)\\students\\new\\page.tsx"), AnchoredSystemPathBuf("packages\\ui\\components\\StatCard.tsx"), AnchoredSystemPathBuf("apps\\admin\\src\\components\\students\\StudentForm.tsx"), AnchoredSystemPathBuf("packages\\ui\\components\\SectionHeader.tsx"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\(dashboard)\\layout.tsx"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\(dashboard)\\page.tsx"), AnchoredSystemPathBuf("apps\\web\\src\\components\\StudentProfile.tsx"), AnchoredSystemPathBuf("packages\\ui\\components\\ProgressBar.tsx"), AnchoredSystemPathBuf("apps\\web\\src\\components\\layout\\Footer.tsx"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\(auth)\\login\\page.tsx"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\globals.css")}
+2025-12-30T09:09:34.778530Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }, WorkspacePackage { name: Other("@ivyonaire/ui"), path: AnchoredSystemPathBuf("packages\\ui") }, WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }, WorkspacePackage { name: Other("@ivyonaire/config"), path: AnchoredSystemPathBuf("packages\\config") }}))
+2025-12-30T09:09:34.864167Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:09:34.864207Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:09:34.864235Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:09:34.864251Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:15:06.675313Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\StudentProfile.tsx")}
+2025-12-30T09:15:06.675344Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:15:23.279708Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\StudentProfile.tsx")}
+2025-12-30T09:15:23.279732Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:15:23.378727Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:15:27.279230Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\StudentProfile.tsx")}
+2025-12-30T09:15:27.279253Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:15:27.323360Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:16:15.169887Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".env.example")}
+2025-12-30T09:16:15.169907Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:16:29.773056Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\db\\.env copy"), AnchoredSystemPathBuf("packages\\db")}
+2025-12-30T09:16:29.773074Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/db"), path: AnchoredSystemPathBuf("packages\\db") }}))
+2025-12-30T09:16:34.977561Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\db\\.env copy"), AnchoredSystemPathBuf("packages\\db\\.env.example"), AnchoredSystemPathBuf("packages\\db")}
+2025-12-30T09:16:34.977585Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/db"), path: AnchoredSystemPathBuf("packages\\db") }}))
+2025-12-30T09:19:50.482455Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\ErrorBoundary.tsx")}
+2025-12-30T09:19:50.482480Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:19:50.597231Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components")}
+2025-12-30T09:19:50.597245Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:19:50.597266Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:19:50.673952Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\components\\ErrorBoundary.tsx")}
+2025-12-30T09:19:50.673975Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:19:59.967747Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\ErrorBoundary.tsx"), AnchoredSystemPathBuf("apps\\admin\\src\\components")}
+2025-12-30T09:19:59.967776Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:20:00.175372Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\components\\ErrorBoundary.tsx")}
+2025-12-30T09:20:00.175390Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:20:09.679838Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app\\layout.tsx")}
+2025-12-30T09:20:09.679869Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:20:15.880524Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\src\\app\\[slug]\\page.tsx")}
+2025-12-30T09:20:15.880552Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:20:19.569648Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\src\\app\\layout.tsx")}
+2025-12-30T09:20:19.569676Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:20:33.477709Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\next.config.js")}
+2025-12-30T09:20:33.477733Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:20:36.377151Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T09:20:36.377178Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:20:36.463001Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:20:36.870853Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T09:20:36.870875Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:20:36.982178Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:20:37.372405Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T09:20:37.372425Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:20:37.489486Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:20:37.489606Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\next.config.js")}
+2025-12-30T09:20:37.489616Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:20:37.620277Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T09:20:37.620301Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:20:37.934464Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:20:39.871050Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T09:20:39.871075Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:20:39.963967Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:20:40.881437Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T09:20:40.881472Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:20:40.959102Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:20:40.975671Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\db\\package.json")}
+2025-12-30T09:20:40.975693Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/db"), path: AnchoredSystemPathBuf("packages\\db") }}))
+2025-12-30T09:20:41.967691Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T09:20:41.967712Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:20:42.297093Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:20:42.297277Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T09:20:42.297290Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:20:42.297325Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:20:44.072709Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("scripts\\migrate.sh"), AnchoredSystemPathBuf("scripts")}
+2025-12-30T09:20:44.072735Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:20:44.277370Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("scripts"), AnchoredSystemPathBuf("scripts\\migrate.sh")}
+2025-12-30T09:20:44.277392Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:20:44.477597Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-12-30T09:20:44.477614Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-12-30T09:20:46.573688Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("scripts"), AnchoredSystemPathBuf("scripts\\build.sh")}
+2025-12-30T09:20:46.573705Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:20:46.776559Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("scripts\\build.sh")}
+2025-12-30T09:20:46.776579Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:20:50.081261Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("scripts\\start.sh")}
+2025-12-30T09:20:50.081281Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:20:50.268797Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("scripts\\start.sh")}
+2025-12-30T09:20:50.268819Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:21:53.573251Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("DEPLOYMENT.md")}
+2025-12-30T09:21:53.573277Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:21:53.881454Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("DEPLOYMENT.md")}
+2025-12-30T09:21:53.881473Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:21:54.168935Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-12-30T09:21:54.168955Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-12-30T09:21:56.375932Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("ecosystem.config.js")}
+2025-12-30T09:21:56.375957Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:21:56.579055Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("ecosystem.config.js")}
+2025-12-30T09:21:56.579086Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:21:56.874885Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-12-30T09:21:56.874909Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-12-30T09:21:58.779948Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".gitignore")}
+2025-12-30T09:21:58.779970Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:22:07.976445Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("PRODUCTION_CHECKLIST.md")}
+2025-12-30T09:22:07.976474Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:22:08.370122Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("PRODUCTION_CHECKLIST.md")}
+2025-12-30T09:22:08.370142Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:22:10.568202Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package.json")}
+2025-12-30T09:22:10.568222Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(All)
+2025-12-30T09:22:10.677553Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-12-30T09:22:10.677574Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-12-30T09:22:34.377753Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("scripts"), AnchoredSystemPathBuf(".turbo\\daemon\\dd4ce094d18f2c37-turbo.log.2025-12-30")}
+2025-12-30T09:22:34.377774Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:22:43.273382Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\dd4ce094d18f2c37-turbo.log.2025-12-30")}
+2025-12-30T09:22:43.273409Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:25:40.074569Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\db\\prisma\\migrations\\.gitkeep"), AnchoredSystemPathBuf("packages\\db\\prisma\\migrations")}
+2025-12-30T09:25:40.074586Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/db"), path: AnchoredSystemPathBuf("packages\\db") }}))
+2025-12-30T09:25:40.214436Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\db\\prisma"), AnchoredSystemPathBuf("packages\\db\\prisma\\migrations")}
+2025-12-30T09:25:40.214449Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/db"), path: AnchoredSystemPathBuf("packages\\db") }}))
+2025-12-30T09:25:40.214463Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:25:40.368357Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\db\\prisma\\migrations\\.gitkeep")}
+2025-12-30T09:25:40.368375Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/db"), path: AnchoredSystemPathBuf("packages\\db") }}))
+2025-12-30T09:25:50.777299Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("QUICK_START.md")}
+2025-12-30T09:25:50.777321Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:25:50.870994Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("QUICK_START.md")}
+2025-12-30T09:25:50.871014Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:25:52.073302Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-12-30T09:25:52.073318Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-12-30T09:26:26.676575Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("PRODUCTION_SETUP_SUMMARY.md")}
+2025-12-30T09:26:26.676603Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:26:26.877961Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("PRODUCTION_SETUP_SUMMARY.md")}
+2025-12-30T09:26:26.877981Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:26:28.072209Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-12-30T09:26:28.072227Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-12-30T09:26:42.867943Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\next.config.js"), AnchoredSystemPathBuf("apps\\admin\\src\\components\\ErrorBoundary.tsx"), AnchoredSystemPathBuf("scripts\\build.sh"), AnchoredSystemPathBuf("QUICK_START.md"), AnchoredSystemPathBuf("scripts\\migrate.sh"), AnchoredSystemPathBuf("packages\\db\\prisma\\migrations\\.gitkeep"), AnchoredSystemPathBuf("apps\\web\\src\\app\\layout.tsx"), AnchoredSystemPathBuf("scripts\\start.sh"), AnchoredSystemPathBuf("PRODUCTION_SETUP_SUMMARY.md"), AnchoredSystemPathBuf("DEPLOYMENT.md"), AnchoredSystemPathBuf("apps\\admin\\src\\app\\layout.tsx"), AnchoredSystemPathBuf("apps\\web\\next.config.js"), AnchoredSystemPathBuf(".gitignore"), AnchoredSystemPathBuf("package.json"), AnchoredSystemPathBuf("apps\\web\\src\\app\\[slug]\\page.tsx"), AnchoredSystemPathBuf("ecosystem.config.js"), AnchoredSystemPathBuf("packages\\db\\package.json"), AnchoredSystemPathBuf("apps\\web\\src\\components\\ErrorBoundary.tsx"), AnchoredSystemPathBuf("PRODUCTION_CHECKLIST.md")}
+2025-12-30T09:26:42.867961Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(All)
+2025-12-30T09:26:44.667407Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next"), AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T09:26:44.667426Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }, WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:26:44.755494Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:26:44.755521Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:26:45.175284Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T09:26:45.175305Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:26:45.254223Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:26:45.269082Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T09:26:45.269109Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:26:45.466478Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:26:45.466629Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T09:26:45.466637Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:26:45.466668Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:26:45.668839Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\admin\\.next")}
+2025-12-30T09:26:45.668859Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/admin"), path: AnchoredSystemPathBuf("apps\\admin") }}))
+2025-12-30T09:26:45.891944Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:26:46.075853Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T09:26:46.075869Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:26:46.181771Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:26:46.377794Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps\\web\\.next")}
+2025-12-30T09:26:46.377816Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@ivyonaire/web"), path: AnchoredSystemPathBuf("apps\\web") }}))
+2025-12-30T09:26:46.407886Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-12-30T09:27:19.370562Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\dd4ce094d18f2c37-turbo.log.2025-12-30")}
+2025-12-30T09:27:19.370582Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:27:21.370263Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\dd4ce094d18f2c37-turbo.log.2025-12-30")}
+2025-12-30T09:27:21.370288Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:32:04.382020Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\dd4ce094d18f2c37-turbo.log.2025-12-30")}
+2025-12-30T09:32:04.382045Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T09:32:06.370861Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\dd4ce094d18f2c37-turbo.log.2025-12-30")}
+2025-12-30T09:32:06.370883Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-30T10:02:32.675442Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon\\dd4ce094d18f2c37-turbo.log.2025-12-30")}
+2025-12-30T10:02:32.675458Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
