@@ -13,7 +13,22 @@
   }
 
   body {
-    @apply bg-white text-gray-900 antialiased;
+    @apply bg-ivy-50 text-primary-900 antialiased;
+    font-feature-settings: 'kern' 1, 'liga' 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-primary-900;
+    font-feature-settings: 'kern' 1;
+  }
+
+  p {
+    @apply text-primary-700;
   }
 }
 
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

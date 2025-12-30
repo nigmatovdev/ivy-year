@@ -1,20 +1,41 @@
-export default function StudentsPage() {
+import Link from "next/link";
+import { getServerAuthSession } from "@/lib/auth";
+import { redirect } from "next/navigation";
+import { prisma } from "@ivyonaire/db";
+import { StudentList } from "@/components/students/StudentList";
+
+export default async function StudentsPage() {
+  const session = await getServerAuthSession();
+  if (!session) {
+    redirect("/login");
+  }
+
+  const students = await prisma.student.findMany({
+    include: {
+      ieltsProgress: true,
+      satProgress: true,
+      portfolioProjects: true,
+      internationalAdmits: true,
+    },
+    orderBy: {
+      createdAt: "desc",
+    },
+  });
+
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="flex items-center justify-between mb-6">
-        <h2 className="text-3xl font-serif font-bold text-gray-900">
+    <div className="container mx-auto px-4 py-12 md:py-16">
+      <div className="flex items-center justify-between mb-10">
+        <h2 className="text-h2 font-serif font-bold text-primary-900 tracking-tight">
           Students
         </h2>
-        <button className="px-4 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors">
+        <Link
+          href="/students/new"
+          className="px-6 py-3 bg-ivy-900 text-white rounded-xl hover:bg-ivy-800 transition-all duration-300 shadow-soft hover:shadow-soft-md font-semibold"
+        >
           Add Student
-        </button>
+        </Link>
       </div>
-      <div className="bg-white border border-gray-200 rounded-lg">
-        <div className="p-8 text-center text-gray-500">
-          Student list will be displayed here
-        </div>
-      </div>
+      <StudentList students={students} />
     </div>
   );
 }
-

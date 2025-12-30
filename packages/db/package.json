@@ -10,12 +10,9 @@
     "db:studio": "prisma studio",
     "type-check": "tsc --noEmit"
   },
-  "dependencies": {
-    "@prisma/client": "^5.9.0"
-  },
   "devDependencies": {
-    "prisma": "^5.9.0",
+    "@prisma/client": "^5.22.0",
+    "prisma": "^5.22.0",
     "typescript": "^5.3.3"
   }
 }
-
