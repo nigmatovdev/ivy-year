@@ -12,6 +12,7 @@ module.exports = {
         NODE_ENV: 'production',
         PORT: 3000,
       },
+      env_file: path.resolve(__dirname, 'apps/web/.env.production'),
       instances: 2,
       exec_mode: 'cluster',
       error_file: path.resolve(__dirname, 'logs/ivyonaire-web-error.log'),
@@ -34,6 +35,7 @@ module.exports = {
         NODE_ENV: 'production',
         PORT: 3001,
       },
+      env_file: path.resolve(__dirname, 'apps/admin/.env.production'),
       instances: 1,
       exec_mode: 'fork',
       error_file: path.resolve(__dirname, 'logs/ivyonaire-admin-error.log'),
@@ -48,4 +50,3 @@ module.exports = {
     },
   ],
 };
-

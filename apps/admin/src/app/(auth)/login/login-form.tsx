@@ -1,18 +1,39 @@
 "use client";
 
 import * as React from "react";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
 
 export function LoginForm() {
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
   const [isLoading, setIsLoading] = React.useState(false);
+  const [error, setError] = React.useState<string | null>(null);
   const searchParams = useSearchParams();
-  const error = searchParams.get("error");
+  const router = useRouter();
+
+  // Check for error in URL on mount
+  React.useEffect(() => {
+    const urlError = searchParams.get("error");
+    if (urlError === "CredentialsSignin") {
+      setError("Invalid email or password. Please try again.");
+    }
+  }, [searchParams]);
+
+  // Clear error when user starts typing
+  const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setEmail(e.target.value);
+    if (error) setError(null);
+  };
+
+  const handlePasswordChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setPassword(e.target.value);
+    if (error) setError(null);
+  };
 
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    setError(null);
     setIsLoading(true);
 
     try {
@@ -23,16 +44,16 @@ export function LoginForm() {
       });
 
       if (result?.error) {
-        // Redirect to login page with error
-        window.location.href = "/login?error=CredentialsSignin";
+        setError("Invalid email or password. Please check your credentials and try again.");
+        setIsLoading(false);
       } else if (result?.ok) {
         // Success - redirect to dashboard
-        window.location.href = "/";
+        router.push("/");
+        router.refresh();
       }
     } catch (error) {
       console.error("Login error:", error);
-      window.location.href = "/login?error=CredentialsSignin";
-    } finally {
+      setError("An unexpected error occurred. Please try again.");
       setIsLoading(false);
     }
   }
@@ -53,8 +74,9 @@ export function LoginForm() {
           autoComplete="email"
           required
           value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          onChange={handleEmailChange}
           className="block w-full rounded-xl border border-ivy-200 bg-white px-4 py-3 text-body text-primary-900 shadow-soft outline-none ring-0 transition-all placeholder:text-primary-400 focus:border-ivy-500 focus:ring-2 focus:ring-ivy-500/20"
+          placeholder="admin@ivyonaire.com"
         />
       </div>
 
@@ -72,15 +94,16 @@ export function LoginForm() {
           autoComplete="current-password"
           required
           value={password}
-          onChange={(e) => setPassword(e.target.value)}
+          onChange={handlePasswordChange}
           className="block w-full rounded-xl border border-ivy-200 bg-white px-4 py-3 text-body text-primary-900 shadow-soft outline-none ring-0 transition-all placeholder:text-primary-400 focus:border-ivy-500 focus:ring-2 focus:ring-ivy-500/20"
+          placeholder="Enter your password"
         />
       </div>
 
       {error && (
-        <div className="rounded-xl bg-rose-50 border border-rose-200 p-4">
+        <div className="rounded-xl bg-rose-50 border border-rose-200 p-4 animate-in fade-in duration-200">
           <p className="text-body-sm text-rose-800 font-medium" role="alert">
-            Invalid credentials. Please try again.
+            {error}
           </p>
         </div>
       )}

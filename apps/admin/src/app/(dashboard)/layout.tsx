@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import { getServerAuthSession } from "@/lib/auth";
 import Link from "next/link";
+import { LogoutButton } from "@/components/LogoutButton";
 
 export default async function DashboardLayout({
   children,
@@ -26,6 +27,7 @@ export default async function DashboardLayout({
               <span className="text-body-sm text-primary-600">
                 {session.user?.email}
               </span>
+              <LogoutButton />
             </div>
           </div>
         </div>
